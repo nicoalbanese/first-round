@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Crimson+Text&display=swap");
+
 :root {
   --main-color: white;
   --secondary-color: #69c9d0;
   --third-color: #ee1d52;
   --fourth-color: black;
+  --fifth-color: #c2c2c2;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cormorant Garamond", "Crimson Text", Arial, Helvetica,
+    sans-serif;
+  font-size: 20px;
   box-sizing: border-box;
   margin: 0;
   background-color: var(--main-color);
@@ -28,10 +33,30 @@ h1 {
 }
 
 .separator {
-  border-bottom: solid 1px var(--secondary-color);
+  border-top: solid 1px var(--fifth-color);
   padding: 50px 0;
 }
 
 .main-logo {
   max-width: 200px;
+}
+
+/* Investor List */
+
+.investor-heading {
+  color: var(--third-color);
+}
+
+.investor-list {
+  list-style: none;
+  text-align: center;
+}
+
+.investor-name {
+  padding-bottom: 10px;
+}
+
+.fund-name {
+  /* font-style: italic; */
+  color: var(--third-color);
 }
