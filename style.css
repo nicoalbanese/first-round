@@ -32,6 +32,12 @@ h1 {
   color: var(--third-color);
 }
 
+.emphasis-text {
+  color: var(--secondary-color);
+  font-weight: 900;
+  text-decoration: underline;
+}
+
 .separator {
   border-top: solid 1px var(--fifth-color);
   padding: 50px 0;
@@ -50,10 +56,15 @@ h1 {
 .investor-list {
   list-style: none;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .investor-name {
   padding-bottom: 10px;
+}
+
+.investor-name:hover {
+  color: var(--secondary-color);
 }
 
 .fund-name {
