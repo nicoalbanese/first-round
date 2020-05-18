@@ -10,17 +10,28 @@ body {
   box-sizing: border-box;
   margin: 0;
   background-color: var(--main-color);
+  text-align: center;
 }
 
 .wrapper {
   /* min-width: 320px; */
+  /* margin-top: 200px; */
   max-width: 700px;
   min-width: 300px;
-  margin: 0 auto;
-  outline: 1px solid red;
-  padding: 20px;
+  margin: auto;
+  /* outline: 1px solid red; */
+  padding: 50px;
 }
 
 h1 {
-  color: var(--secondary-color);
+  color: var(--third-color);
+}
+
+.separator {
+  border-bottom: solid 1px var(--secondary-color);
+  padding: 50px 0;
+}
+
+.main-logo {
+  max-width: 200px;
 }
