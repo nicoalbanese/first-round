@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Crimson+Text&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
 :root {
   --main-color: white;
   --secondary-color: #69c9d0;
@@ -40,8 +42,8 @@ h1 {
 }
 
 .emphasis-text {
-  color: var(--secondary-color);
-  font-weight: 900;
+  /* color: var(--secondary-color); */
+  /* font-weight: 900; */
   text-decoration: underline;
 }
 
@@ -92,13 +94,27 @@ li {
 }
 
 .investor-name:hover {
-  color: var(--secondary-color);
-  cursor: pointer;
+  /* color: var(--secondary-color); */
+  /* cursor: pointer; */
+}
+
+.investor-name {
+  font-size: 1.4rem;
+  font-weight: 900;
 }
 
 .fund-name {
   /* font-style: italic; */
   color: var(--third-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: "Lato", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.fund-name:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .section-header {
@@ -108,19 +124,46 @@ li {
   align-items: center;
 }
 
-.section-header h1 {
+.section-header h1,
+.section-header h2 {
   margin-bottom: 10px;
   border-bottom: solid 2px var(--secondary-color);
   padding-bottom: 10px;
+  color: var(--third-color);
 }
 
 .investor-section {
-  background-color: rgb(233, 231, 231);
-  max-width: 400px;
+  /* background-color: rgb(233, 231, 231); */
+  border: solid 2px rgb(233, 231, 231);
+  /* max-width: 400px; */
   margin: 30px auto;
   padding: 10px 0;
 }
 
 .headline {
   color: var(--third-color);
+}
+
+.social-link {
+  padding-right: 2px;
+  width: 15px;
+}
+
+.socials {
+  padding-top: 5px;
+}
+
+.ivnestor-name-actual {
+  padding-right: 10px;
+}
+
+.investor-list a,
+.investor-list a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.magnus:hover {
+  color: var(--third-color);
+  cursor: default;
 }
