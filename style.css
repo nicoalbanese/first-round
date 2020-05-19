@@ -22,14 +22,21 @@ body {
   /* min-width: 320px; */
   /* margin-top: 200px; */
   max-width: 700px;
-  min-width: 300px;
+  min-width: 200px;
   margin: auto;
   /* outline: 1px solid red; */
-  padding: 50px;
+  padding: 30px;
 }
 
 h1 {
   color: var(--third-color);
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .emphasis-text {
@@ -39,8 +46,8 @@ h1 {
 }
 
 .separator {
-  border-top: solid 1px var(--fifth-color);
-  padding: 50px 0;
+  /* border-top: solid 1px var(--fifth-color); */
+  padding-bottom: 20px;
 }
 
 .main-logo {
@@ -57,17 +64,63 @@ h1 {
   list-style: none;
   text-align: center;
   padding-bottom: 50px;
+  padding: 10px;
 }
 
-.investor-name {
-  padding-bottom: 10px;
+.criteria-list,
+.the-format-list {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  padding: 10px 0;
+}
+
+.format-list-item {
+  padding: 15px;
+}
+
+.divider {
+  border-bottom: dashed 1px var(--fifth-color);
+  width: 50%;
 }
 
 .investor-name:hover {
   color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .fund-name {
   /* font-style: italic; */
+  color: var(--third-color);
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header h1 {
+  margin-bottom: 10px;
+  border-bottom: solid 2px var(--secondary-color);
+  padding-bottom: 10px;
+}
+
+.investor-section {
+  background-color: rgb(233, 231, 231);
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 10px 0;
+}
+
+.headline {
   color: var(--third-color);
 }
