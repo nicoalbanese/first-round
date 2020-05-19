@@ -128,7 +128,7 @@ li {
 .section-header h2 {
   margin-bottom: 10px;
   border-bottom: solid 2px var(--secondary-color);
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color: var(--third-color);
 }
 
@@ -166,4 +166,16 @@ li {
 .magnus:hover {
   color: var(--third-color);
   cursor: default;
+}
+
+.typeform-link {
+  border-bottom: solid 1px var(--secondary-color);
+  margin-bottom: 0;
+  padding: 5px;
+  border-radius: 10%;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+
+.typeform-link:hover {
 }
