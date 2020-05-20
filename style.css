@@ -234,6 +234,10 @@ a > img:hover {
     width: 60%;
   }
 
+  .investor-item:last-child {
+    padding-top: 30px;
+  }
+
   .investor-list {
     display: flex;
     flex-direction: column;
