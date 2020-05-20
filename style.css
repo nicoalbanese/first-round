@@ -153,7 +153,7 @@ li {
 }
 
 .social-link:hover {
-  filter: brightness(120%);
+  filter: opacity(40%);
   cursor: pointer;
 }
 
@@ -204,9 +204,18 @@ li {
 }
 
 .fund-logos {
+  height: 40px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* outline: solid 1px red; */
+}
+
+/* fund logo brightness hove */
+
+a > img:hover {
+  filter: opacity(40%);
 }
 
 .investor-item {
@@ -229,11 +238,12 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 }
 
 .profile-picture {
-  width: 100px;
+  width: 120px;
   border-radius: 50%;
   padding: 10px;
 }
@@ -291,7 +301,8 @@ li {
 }
 
 .apply-now-button:hover {
-  background-color: #9edadf;
+  /* background-color: #9edadf; */
+  filter: opacity(50%);
   cursor: pointer;
 }
 
