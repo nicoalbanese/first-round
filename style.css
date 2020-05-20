@@ -149,6 +149,12 @@ li {
 .social-link {
   padding-right: 2px;
   width: 15px;
+  padding: 0 5px;
+}
+
+.social-link:hover {
+  filter: brightness(120%);
+  cursor: pointer;
 }
 
 .socials {
