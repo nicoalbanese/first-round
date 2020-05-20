@@ -242,6 +242,12 @@ a > img:hover {
   }
 }
 
+@media only screen and (min-width: 744px) {
+  .investor-item:nth-child(n + 4) {
+    margin-top: 35px;
+  }
+}
+
 .profile-picture {
   width: 120px;
   border-radius: 50%;
