@@ -254,7 +254,7 @@ li {
 
 .apply-list-item {
   padding-bottom: 20px;
-  padding: 10px;
+  padding: 10px 7px;
   flex-direction: column;
 }
 
