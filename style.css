@@ -207,3 +207,10 @@ li {
   border-radius: 50%;
   padding: 10px;
 }
+
+.main-heading {
+  font-weight: 900;
+  margin-bottom: 10px;
+  border-bottom: solid 2px var(--secondary-color);
+  padding-bottom: 5px;
+}
