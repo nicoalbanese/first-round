@@ -95,10 +95,10 @@ li {
   width: 50%;
 }
 
-.investor-name:hover {
-  /* color: var(--secondary-color); */
-  /* cursor: pointer; */
-}
+/* .investor-name:hover {
+  color: var(--secondary-color); 
+  cursor: pointer;
+} */
 
 .investor-name {
   font-size: 1.4rem;
