@@ -365,8 +365,8 @@ a > img:hover {
 .angel-investor-tag {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 0.9rem;
+  font-weight: 600;
   /* color: var(--third-color); */
 }
 
