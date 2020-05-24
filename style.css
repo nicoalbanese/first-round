@@ -373,3 +373,50 @@ a > img:hover {
 .angel-investor-tag:hover {
   filter: opacity(60%);
 }
+
+/* Collapsible FAQ Section */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: justify;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-field-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* FAQ Section Heading */
+.faq-section {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: solid 1px var(--fifth-color);
+}
+
+.first-faq-item {
+  margin-top: 40px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
