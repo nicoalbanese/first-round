@@ -15,8 +15,7 @@
 }
 
 body {
-  font-family: "Cormorant Garamond", "Crimson Text", Arial, Helvetica,
-    sans-serif;
+  /* font-family: "Lato", "Crimson Text", Arial, Helvetica, sans-serif; */
   font-size: 20px;
   box-sizing: border-box;
   margin: 0;
@@ -417,7 +416,7 @@ a > img:hover {
   background-color: #f1f1f1;
   text-align: justify;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
 }
 
