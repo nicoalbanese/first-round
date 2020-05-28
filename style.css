@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
 :root {
   --main-color: white;
   --secondary-color: #69c9d0;
@@ -32,6 +36,17 @@ body {
 
 h1 {
   color: var(--third-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p,
+li {
+  font-family: "Lato", sans-serif;
 }
 
 .header-top {
@@ -93,7 +108,7 @@ li {
 }
 
 .divider {
-  border-bottom: dashed 1px var(--fifth-color);
+  border-bottom: dotted 1px var(--fifth-color);
   width: 50%;
 }
 
@@ -103,8 +118,8 @@ li {
 } */
 
 .investor-name {
-  font-size: 1.4rem;
-  font-weight: 900;
+  font-size: 1.2rem;
+  /* font-weight: 900; */
 }
 
 .fund-name {
@@ -202,7 +217,7 @@ li {
 
 .the-fund-logo {
   border-radius: 5px;
-  padding-left: 5px;
+  margin-left: 5px;
 }
 
 .fund-logos {
@@ -293,8 +308,8 @@ a > img:hover {
   padding-bottom: 5px;
   background-color: var(--third-color);
   color: white;
-  padding: 15px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .apply-list {
