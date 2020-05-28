@@ -292,6 +292,9 @@ a > img:hover {
   .wrapper {
     padding: 20px;
   }
+  .main-heading {
+    font-size: 1.6em;
+  }
 }
 
 .profile-picture {
