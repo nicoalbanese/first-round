@@ -67,6 +67,14 @@ li {
   padding-bottom: 20px;
 }
 
+.detailed-h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: underline;
+  padding-top: 10px;
+  color: var(--third-color);
+}
+
 .main-logo {
   max-width: 200px;
 }
@@ -482,7 +490,7 @@ a > img:hover {
   display: grid;
   margin-top: 0;
   margin-bottom: 0;
-  grid-template-columns: 1fr 0.2fr 1fr 0.2fr 1fr;
+  grid-template-columns: 1fr 0.2fr 1fr 0.2fr 1fr 0.2fr 1fr;
   align-items: center;
   /* flex-direction: var(--fifth-color); */
   justify-content: space-around;
