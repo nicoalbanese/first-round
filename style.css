@@ -524,7 +524,7 @@ a > img:hover {
   color: var(--fifth-color);
 }
 
-.application-close-text {
+#application-close-text {
   font-family: "Lato";
   font-weight: 900;
   font-size: 1.1em;
